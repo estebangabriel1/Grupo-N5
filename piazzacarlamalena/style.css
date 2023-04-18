@@ -25,8 +25,8 @@ header {
 
 /* Estilos de la barra de navegación */
 nav {
-    background-color:  
-	height: 40px;
+	
+    background-color: ;
 	background: rgba(34,34,34,0.75);
 	color: #fff;
 	padding: 10px;
@@ -48,7 +48,7 @@ nav ul li {
 }
 
 nav ul li a {
-	color: #8fcef8;
+	color: #ffffff;
 	text-decoration: none;
 }
 
