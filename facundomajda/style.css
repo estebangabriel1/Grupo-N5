@@ -1,0 +1,280 @@
+/* Estilos generales de la página */
+
+
+:root {
+--primario: #7776BC;
+--secundario: #CDC7E5;
+
+--contrastepri: #FFFBDB;
+--contrastesec: #FFEC51;
+
+--bg: #FF674D;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 3rem 0;
+  font-family: Roboto;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  background-color: var(--contrastepri);
+  font-size: 16px;
+  line-height: 1.5;
+}
+p {
+  color: #f0f0f0;
+}
+
+/* Estilos del encabezado */
+header {
+  background-color: --primario;
+  padding: 20px;
+  margin: 2rem;
+  background-color: var;
+  border-radius: 35px;
+}
+
+
+/* Estilos de la barra de navegación */
+nav {
+  background-color: var(--primario);
+  color: #fff;
+  padding: 10px;
+  border-radius: 35px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estilos del contenido principal */
+section {
+  padding: 20px;
+  width: 1200px;
+}
+
+img {
+  width: 100px;
+}
+
+h4 {
+  font-size: 8px;
+  font-style: italic;
+}
+
+
+h1,
+h2,
+p {
+  margin: 3rem 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 330px;
+}
+
+hr {
+  display: block;
+  position: relative;
+  width: 100vw;
+  height: 2px;
+  margin: 3rem 0 5rem -50vw;
+  left: 50%;
+  border: none;
+  border-bottom: 2px dashed #7c4657;
+  float: left;
+}
+
+
+
+/* /* Estilos del pie de página
+footer {
+  background-color: rgb(170, 25, 25);
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 35px;
+  height: 100%;
+  margin: 0 auto;
+  font-size: 15px;
+}  */
+
+
+
+
+
+/* summary */
+
+section {
+  padding-top: 4rem;
+  width: 50%;
+  margin: auto;
+}
+h1 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+details[open] summary ~ * {
+  animation: open 0.3s ease-in-out;
+}
+
+@keyframes open {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details summary {
+  width: 100%;
+  padding: 0.5rem 0;
+  border-top: 1px solid black;
+  position: relative;
+  cursor: pointer;
+  font-size: 1.25rem;
+  font-weight: 300;
+  list-style: none;
+}
+
+details summary:after {
+  content: "+";
+  color: black;
+  position: absolute;
+  font-size: 1.75rem;
+  line-height: 0;
+  margin-top: 0.75rem;
+  right: 0;
+  font-weight: 200;
+  transform-origin: center;
+  transition: 200ms linear;
+}
+details[open] summary:after {
+  transform: rotate(45deg);
+  font-size: 2rem;
+}
+details summary {
+  outline: 0;
+}
+details p {
+  font-size: 0.95rem;
+  margin: 0 0 1rem;
+  padding-top: 1rem;
+}
+
+
+/*  */
+
+
+.particles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.particle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  opacity: 0;
+  box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.5), 0 0 20px 6px rgba(255, 255, 255, 0.5), 0 0 30px 9px rgba(255, 255, 255, 0.5);
+  transform: scale(0);
+  animation: particle-fade-in 0.1s ease-in-out forwards, particle-expand 10s linear infinite, particle-fade-out 0.1s ease-in-out forwards;
+}
+
+.particle:nth-of-type(1) {
+  background: #d35780;
+  left: 15%;
+  animation-delay: 0s;
+}
+
+.particle:nth-of-type(2) {
+  background: #c94a7a;
+  left: 25%;
+  animation-delay: -2s;
+}
+
+.particle:nth-of-type(3) {
+  background: #a81e5f;
+  left: 35%;
+  animation-delay: -4s;
+}
+
+.particle:nth-of-type(4) {
+  background: #5d3f6a;
+  left: 45%;
+  animation-delay: -6s;
+}
+
+.particle:nth-of-type(5) {
+  background: #324558;
+  left: 55%;
+  animation-delay: -8s;
+}
+
+.particle:nth-of-type(6) {
+  background: #00707c;
+  left: 65%;
+  animation-delay: -10s;
+}
+
+@keyframes particle-fade-in {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes particle-fade-out {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0);
+  }
+}
+
+@keyframes particle-expand {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(50);
+  }
+}
