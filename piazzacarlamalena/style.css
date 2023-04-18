@@ -1,22 +1,37 @@
-
 body {
 	margin: 0;
 	padding: 0;
 	font-family: Arial, sans-serif;
 	font-size: 16px;
 	line-height: 1.5;
+	background-color: #55D2FE;
+	background-image: url(https://cn.i.cdn.ti-platform.com/cnlatam/content/13/showpage/hora-de-aventura/ve/6dvrksjg.png);
+	background-size: cover ;
 }
 
 header {
-	background-color: #c5f1ff;
-	padding: 20px;
+	background-color: #55D2FE;
+	background-image: url(https://e1.pxfuel.com/desktop-wallpaper/958/173/desktop-wallpaper-cartoon-network-adventure-time-adventure-time-computer.jpg);
+	background-size: cover;
+	padding: 1px;
+}
+
+.titulo {
+-webkit-text-stroke-color:  #ffe2e2 ;
+-webkit-text-stroke-width: 1px;
+;
+
 }
 
 /* Estilos de la barra de navegación */
 nav {
-	background-color: #333;
+    background-color:  
+	height: 40px;
+	background: rgba(34,34,34,0.75);
 	color: #fff;
 	padding: 10px;
+	border-radius: 10px;
+
 }
 
 nav ul {
@@ -29,11 +44,11 @@ nav ul {
 }
 
 nav ul li {
-	margin: 0 10px;
+	margin: 0 20px;
 }
 
 nav ul li a {
-	color: #fff;
+	color: #8fcef8;
 	text-decoration: none;
 }
 
@@ -44,9 +59,8 @@ section {
 
 /* Estilos del pie de página */
 footer {
-	background-color: #333;
-	color: #fff;
-	padding: 20px;
+	color: #617cf3;
+	padding: 100px;
 	text-align: center;
 }
 
