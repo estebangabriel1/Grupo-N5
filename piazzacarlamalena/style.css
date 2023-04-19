@@ -26,7 +26,6 @@ header {
 /* Estilos de la barra de navegación */
 nav {
 	
-    background-color: ;
 	background: rgba(34,34,34,0.75);
 	color: #fff;
 	padding: 10px;
@@ -59,7 +58,8 @@ section {
 
 /* Estilos del pie de página */
 footer {
-	color: #617cf3;
+	text-align: end;
+	color: #f8f9ff;
 	padding: 100px;
 	text-align: center;
 }
@@ -71,4 +71,34 @@ h1 {
 
 main {
 	text-align: center;
+
+}
+
+.articulo1 {
+	text-align: start;
+	float:left;
+	background: rgba(93, 93, 95, 0.75);
+	color: white ;
+	border-radius: 10px;
+    padding: 10px; 
+	margin: 50px;
+	width: 55%;
+
+	
+}
+aside{
+    float:right;
+	background: rgba(93, 93, 95, 0.75);
+    color: white;
+    overflow: hidden;
+    margin-left: 50px;
+    padding: 10px;
+	border-radius: 10px;
+	width: 400px;
+	height: 460px;
+	
+}
+.datoscuriosos {
+
+	text-align: start;
 }
