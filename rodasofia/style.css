@@ -1,0 +1,57 @@
+body {
+    background: linear-gradient(rgb(53, 173, 242), #04c386);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+
+}
+nav ul{
+ display: flex;
+ justify-content: space-evenly;
+ list-style-type: none;
+}
+header > h1 {
+    text-align:start;
+}
+
+header > nav {
+    display: flex;
+    justify-content:start;
+
+}
+
+header > img {
+    display: flex;
+    width: 45%;
+    justify-content: end;
+
+}
+
+.container{
+
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.img1{
+
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
