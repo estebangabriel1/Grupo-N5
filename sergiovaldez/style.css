@@ -42,12 +42,18 @@ main{
 }
 .america{
     background-color: rgba(108, 196, 199, 0.486);
+    border: 1px solid black;
 }
-.copa{
+.finalissima {
+    background-color: white;
+    border: 1px solid black;
+}
+.copa-del-mundo{
     background-color: rgba(108, 196, 199, 0.486);
+    border: 1px solid black;
 }
 
-.titulo h2{
+.titulo {
     text-align: center;
 }
 
@@ -58,4 +64,29 @@ main{
     font-family: 'Times New Roman', Times, serif;
     padding: 0px 20px;
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.titulo2 {
+    text-align: center;
+}
+.imagen2 {
+    margin-left: 80px;
+}
+.texto2 {
+    padding: 0px 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.titulo3 {
+    text-align: center;
+}
+.imagen3 {
+    margin-left: 45px;
+}
+.texto3 {
+    text-align: center;
+    margin: 0px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
