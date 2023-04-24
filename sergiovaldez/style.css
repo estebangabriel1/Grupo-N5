@@ -2,62 +2,49 @@ body{
     margin: 0px;
     background-color: white;
 }
+
 header{
     margin: 0px;
     border: 1px solid black;
     padding: 10px 0px;
     background-color: rgb(50, 172, 172);
 }
-.h1 {
+header h1 {
     text-align: center;
     text-decoration: underline;
     color: gold;
 }
+
 nav{
     margin: 0px 10px;
     padding: 2px;
     background-color: rgba(248, 238, 224, 0.671);
 }
-footer{
-    padding: 50px;
-    background-color: rgba(0, 0, 0, 0.459);
-}
 .navegacion {
+    list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
+
 .organizacion {
     display: flex;
     flex-direction: row;
-    gap: 10px;
-    
+    gap: 10px;  
 }
 main{
     margin: 10px;
 }
 
-.copa-finalissima{
-    height: 190px;
-}
 .america{
     background-color: rgba(108, 196, 199, 0.486);
     border: 1px solid black;
 }
-.finalissima {
-    background-color: white;
-    border: 1px solid black;
-}
-.copa-del-mundo{
-    background-color: rgba(108, 196, 199, 0.486);
-    border: 1px solid black;
-}
-
 .titulo {
     text-align: center;
 }
 
-.imagen img {
+.imagen {
     margin-left: 53px;
 }
 .texto {
@@ -67,11 +54,18 @@ main{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.finalissima {
+    background-color: white;
+    border: 1px solid black;
+}
 .titulo2 {
     text-align: center;
 }
 .imagen2 {
-    margin-left: 80px;
+    margin-left: 120px;
+}
+.imagen2 img {
+    height: 170px;
 }
 .texto2 {
     padding: 0px 20px;
@@ -79,6 +73,10 @@ main{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.copa-del-mundo{
+    background-color: rgba(108, 196, 199, 0.486);
+    border: 1px solid black;
+}
 .titulo3 {
     text-align: center;
 }
@@ -89,4 +87,9 @@ main{
     text-align: center;
     margin: 0px 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer{
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.459);
 }
