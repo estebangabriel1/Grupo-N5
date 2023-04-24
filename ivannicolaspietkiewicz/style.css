@@ -1,0 +1,55 @@
+body{
+    background: linear-gradient(to right, blue, purple);
+    color: white;
+    padding: 0%;
+    margin: 0%;
+
+}
+.padre1{
+    display: flex;
+
+}
+
+nav{
+    background-color: white;
+    color: black;
+    padding: 0%;
+    margin: 0%;
+    border: 3px solid black;
+
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+header{
+    display: flex;
+    flex-direction: column;
+
+}
+picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+aside{
+    background-color: gray;
+    border: 3px solid black;
+}
+
+footer{
+    background-color: black;
+}
+main{
+    width: 200vw;
+    background-color: blue;
+    border: 3px solid black;
+}
+.pieDePagina{
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
