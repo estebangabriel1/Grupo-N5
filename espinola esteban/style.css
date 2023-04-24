@@ -1,0 +1,51 @@
+header {
+background-color: #635e5e;
+padding: 20px;
+}
+
+header nav ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+header nav ul li {
+   display: inline-block; 
+   margin-right: 20px;
+}
+header nav ul li a{
+
+    text-decoration: none;
+    color:azure ;
+}
+
+body { 
+    background: rgb(0, 0, 0);
+}
+
+footer { 
+
+    background-color: #635e5e;
+    padding: 15px;
+}
+
+main {
+    max-width: 800px;
+    margin: 30px; 
+    padding: 5px;
+    background-color: #635e5e;
+
+}
+
+aside {
+    text-decoration: none;
+    color: white;
+    float: right;
+    width: 30%;
+    position: relative;
+    top: -1450px;
+    padding: 20px
+}
+
+
+
